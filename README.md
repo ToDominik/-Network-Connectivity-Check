@@ -30,5 +30,5 @@ Python
 python network_check.py 
 
 # Custom target 
-python network_check.py -h 1.1.1.1 -p 443 
+python network_check.py -host 1.1.1.1 -port 443 
 ```
