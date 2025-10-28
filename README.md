@@ -16,22 +16,19 @@ Support for custom host and port
 ## Usage
 
 PowerShell
-
 ``` 
 # Default (8.8.8.8:53) 
 ./network_check.ps1
+
+# Custom target 
+./network_check.ps1 -Target 1.1.1.1 -Port 443 
 ```
 
-` # Custom target `
-
-` ./network_check.ps1 -Target 1.1.1.1 -Port 443 `
-
 Python
+```
+# Default (8.8.8.8:53) 
+ python network_check.py 
 
-` # Default (8.8.8.8:53) `
-
-` python network_check.py `
-
-` # Custom target `
-
-` python network_check.py -h 1.1.1.1 -p 443 `
+# Custom target 
+python network_check.py -h 1.1.1.1 -p 443 
+```
