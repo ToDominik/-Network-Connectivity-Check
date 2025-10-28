@@ -27,7 +27,7 @@ PowerShell
 Python
 ```
 # Default (8.8.8.8:53) 
- python network_check.py 
+python network_check.py 
 
 # Custom target 
 python network_check.py -h 1.1.1.1 -p 443 
